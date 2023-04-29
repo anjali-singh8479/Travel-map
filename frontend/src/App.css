@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+* {
+    margin: 0;
+    padding: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .popup {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
-  to {
-    transform: rotate(360deg);
+  label {
+    color: tomato;
+    font-size: 13px;
+    border-bottom: 0.5px solid tomato;
+    margin: 1px 0;
   }
-}
+  .description {
+    font-size: 14px;
+  }
+  .star {
+    color: gold;
+    font-size: 20px;
+  }
+  .username {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  form {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+  .submitbutton {
+    border: none;
+    padding: 5px;
+    color: white;
+    background-color: tomato;
+  }
+  .button {
+    /* position: absolute; */
+   position: relative;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .logout {
+    
+    background-color: tomato;
+  }
+  .login {
+    background-color: teal;
+   
+  }
+  .register {
+    background-color: slateblue;
+   
+   
+  }
+  .buttons .logout{
+      position: absolute;
+      top: 10px;
+  
+  }
+  
+  
+  

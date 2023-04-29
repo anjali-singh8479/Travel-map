@@ -1,0 +1,40 @@
+.registercontainer{
+    width:300px;
+    position: absolute;
+    height: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+color:slateblue;
+font-size: 16px;
+display: flex;
+font-weight: 700;
+justify-content: center;
+margin: 10px;
+}
+.success{
+    color:forestgreen;
+    
+}
+.error{
+    color:red
+}
+.closebutton{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    font-size: 18px;
+    color: slateblue;
+    cursor: pointer;
+}
